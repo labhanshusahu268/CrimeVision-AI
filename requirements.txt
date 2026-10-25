@@ -17,3 +17,4 @@ openai-whisper>=20231117
 numpy>=1.24.0
 requests>=2.31.0
 gunicorn>=21.2.0
+uvicorn
