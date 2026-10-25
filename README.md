@@ -306,7 +306,10 @@ ALL ACCEPTANCE TESTS PASSED SUCCESSFULLY!
 | `GET` | `/storage/processed/{filename}`| Serve processed derivative (annotated keyframes) |
 
 ---
-
+## Deploy link : [deploy link](https://crimevision-ai-frontend-mjt2.vercel.app/)
+```bash
+https://crimevision-ai-frontend-mjt2.vercel.app/
+```
 ## 🔒 Security & Forensic Chain of Custody
 
 1. **Immutable Storage**: Original evidence files are stored with random UUID identifiers in `storage/originals/` and are never modified after ingestion.
