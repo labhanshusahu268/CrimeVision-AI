@@ -5,6 +5,12 @@
  * 2. Full Platform Features (Dashboard Charts, Case Management, Evidence Chain-of-Custody, Unified Timeline, 3D Scene, PDF Reports)
  */
 
+// ऑटोमैटिकली लोकल होस्ट और लाइव रेंडर यूआरएल को डिटेक्ट करने के लिए
+const API_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+    ? 'http://localhost:8000' 
+    : 'https://onrender.com'; // ⚠️ यहाँ अपना असली Render URL डालें जो Dashboard पर दिख रहा है
+
+
 class CrimeVisionApp {
     constructor() {
         this.activeMainTab = "hub";
