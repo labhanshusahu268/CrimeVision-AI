@@ -1,5 +1,6 @@
 # --- Core ASGI Architecture & Web Framework ---
 fastapi
+werkzeug
 uvicorn[standard]
 pydantic>=2.5.0
 python-dotenv>=1.0.0
